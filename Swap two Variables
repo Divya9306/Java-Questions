@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class main{
+    public static void main(String [] args){
+        Scanner s=new Scanner(System.in);
+        String one=s.nextLine();
+        String two=s.nextLine();
+        String three;
+        
+        thr=one;
+        one=two;
+        two=three;
+        
+        System.out.println(one);
+        System.out.println(two);
+    }
+}
