@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class main{
+    public static void main(String [] args){
+        Scanner s=new Scanner(System.in);
+        int one=s.nextInt();
+        int sec=s.nextInt();
+        
+        if(one>sec){
+            System.out.println(one+" is greatest");
+        }
+        else if(sec>one) {
+            System.out.println(sec+" is greatest");
+        }
+        else {
+            System.out.println("Error");
+        }
+    }
+}
